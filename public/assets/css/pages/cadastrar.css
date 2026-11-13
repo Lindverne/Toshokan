@@ -1,0 +1,113 @@
+@import url("../global.css");
+@import url("../components.css");
+
+.form-card {
+    background: var(--bg-card);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    border: none;
+}
+
+.form-control,
+.form-select {
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: var(--bg-input);
+    border-color: var(--biblioteca-primary);
+    box-shadow: 0 0 0 4px var(--biblioteca-primary-light);
+}
+
+.form-label {
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.btn-cadastrar {
+    padding: 0.75rem 1.5rem;
+    border-color: var(--biblioteca-primary);
+    border-radius: var(--radius-md);
+    background: var(--biblioteca-primary);
+    color: #fff;
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.btn-cadastrar:hover {
+    background: var(--biblioteca-primary-hover);
+    box-shadow: 0 4px 12px rgba(61, 90, 128, 0.3);
+    transform: translateY(-1px);
+    color: #fff;
+}
+
+.btn-voltar {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--biblioteca-primary);
+    border-radius: var(--radius-md);
+    background: transparent;
+    color: var(--biblioteca-primary);
+    font-weight: 600;
+    transition: all var(--transition-fast);
+}
+
+.btn-voltar:hover {
+    background: var(--biblioteca-primary);
+    color: #fff;
+}
+
+.text-muted ul li {
+    margin-bottom: 0.5rem;
+}
+
+.drop-zone {
+    padding: 2.5rem;
+    border: 2px dashed var(--border-color);
+    border-radius: var(--radius-lg);
+    background-color: #f8fafc;
+    text-align: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+}
+
+.drop-zone:hover,
+.drop-zone.dragover {
+    border-color: var(--biblioteca-primary);
+    background-color: var(--biblioteca-primary-light);
+}
+
+.preview-box {
+    max-width: 180px;
+    max-height: 180px;
+    border: 3px solid #fff;
+    border-radius: var(--radius-lg);
+    outline: 1px solid var(--border-color);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.guias-livro {
+    margin-top: 5rem !important;
+    padding-top: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.guias-livro i {
+    font-size: 2.5rem;
+    opacity: 0.55;
+}
+
+.guias-livro p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    max-width: 240px;
+    margin: 0 auto;
+}

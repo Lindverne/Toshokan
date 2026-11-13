@@ -1,0 +1,10 @@
+# Imagens de livros — manter apenas a capa padrão
+public/assets/img/livros/*
+!public/assets/img/livros/livro_padrao.png
+
+# Imagens de usuários — manter apenas o avatar padrão
+public/assets/img/usuarios/*
+!public/assets/img/usuarios/avatar_padrao.png
+
+# PDFs de livros
+public/assets/pdf/livros/*
