@@ -3,7 +3,7 @@
 require __DIR__ . '/../../api/middleware/verificador.php';
 VerificarLogin();
 
-include __DIR__ . '/../../api/config/conexao_auth.php';
+include __DIR__ . '/../../api/config/conexao.php';
 
 $id_usuario = $_SESSION['id_usuario'];
 $status     = $_GET['status'] ?? '';

@@ -2,8 +2,8 @@
 
 $host   = 'localhost';
 $dbname = 'biblioteca';
-$user   = 'Lindverne';
-$pass   = '1234';
+$user   = 'root';
+$pass   = '';
 
 try
 {

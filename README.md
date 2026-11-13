@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/assets/img/extras/guedes.png" alt="Toshokan Banner" width="100%" style="max-width: 920px; border-radius: 20px; box-shadow: 0 20px 60px rgba(1,22,30,0.35);">
+  <img src="public/assets/img/extras/toshokan.png" alt="Toshokan Banner" width="100%" style="max-width: 920px; border-radius: 20px; box-shadow: 0 20px 60px rgba(1,22,30,0.35);">
 </p>
 
 <br>
@@ -13,8 +13,8 @@
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0%20-%20Komi-261834?style=for-the-badge&logo=semver&logoColor=white" alt="Version">
-  <img src="https://img.shields.io/badge/release-Novembro%202026-01161e?style=for-the-badge&logo=calendar&logoColor=white" alt="Release">
+ <img src="https://img.shields.io/badge/version-1.0-261834?style=for-the-badge&logo=semver&logoColor=white" alt="Version">
+  <img src="https://img.shields.io/badge/release-Novembro%202026-261834?style=for-the-badge&logo=calendar&logoColor=white" alt="Release">
 </p>
 
 <br>
@@ -83,7 +83,7 @@
   <img src="https://img.shields.io/badge/CRUD%20Livros-100%25-261834?style=for-the-badge" alt="CRUD">
   <img src="https://img.shields.io/badge/Upload%20%2B%20Cropper-100%25-261834?style=for-the-badge" alt="Upload">
   <img src="https://img.shields.io/badge/Busca%20%2B%20Filtros-100%25-261834?style=for-the-badge" alt="Busca">
-  <img src="https://img.shields.io/badge/Perfil%20%2B%20Senha-100%25-9F778F?style=for-the-badge" alt="Perfil">
+  <img src="https://img.shields.io/badge/Perfil%20%2B%20Senha-100%25-261834?style=for-the-badge" alt="Perfil">
 </p>
 
 <br>
@@ -161,7 +161,7 @@
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white" alt="CSS3">
 </p>
 
 <br>
@@ -188,12 +188,10 @@
 <h3 align="center">🧰 Ferramentas de Desenvolvimento</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code">
+  <img src="https://img.shields.io/badge/VSCodium-%232F80ED.svg?style=for-the-badge&logo=vscodium&logoColor=white" alt="Visual Studio Code">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   <img src="https://img.shields.io/badge/phpMyAdmin-6C78AF?style=for-the-badge&logo=phpmyadmin&logoColor=white" alt="phpMyAdmin">
   <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP">
-  <img src="https://img.shields.io/badge/Claude%20Code-Anthropic-261834?style=for-the-badge" alt="Claude Code">
-  <img src="https://img.shields.io/badge/NVIDIA-Nemotron-76B900?style=for-the-badge" alt="NVIDIA Nemotron">
 </p>
 
 <br>
