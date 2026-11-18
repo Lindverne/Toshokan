@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
- <img src="https://img.shields.io/badge/version-1.0-261834?style=for-the-badge&logo=semver&logoColor=white" alt="Version">
+ <img src="https://img.shields.io/badge/version-1.2-261834?style=for-the-badge&logo=semver&logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/release-Novembro%202026-261834?style=for-the-badge&logo=calendar&logoColor=white" alt="Release">
 </p>
 
@@ -66,7 +66,7 @@
 
 <p align="center">
   <blockquote>
-    <strong>Versão:</strong> 1.0 - Komi <br>
+    <strong>Versão:</strong> 1.2 - Komi <br>
     <strong>Lançamento:</strong> Novembro de 2026<br>
     <strong>Status:</strong> Concluído
   </blockquote>

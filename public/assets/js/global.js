@@ -221,6 +221,54 @@ function limparParametrosUrl()
     }
 }
 
-console.log('%c Toshokan ', 'background: #261834; color: #ffffff; padding: 8px 16px; font-size: 18px; font-weight: bold; border-radius: 8px 0 0 8px;');
-console.log('%c Versão 1.0 - Komi', 'background: #261834; color: #ffffff; padding: 8px 16px; font-size: 14px; border-radius: 0 8px 8px 0;');
-console.log('%c ', 'padding: 90px; line-height: 90px; border-radius: 50%; background: url(../assets/img/global/devtools.png) no-repeat center; background-size: cover; color: transparent;');
+function exibirBannerConsole()
+{
+  const caminhoBase = window.location.pathname.includes("/pages/")
+    ? "../assets/img/"
+    : "assets/img/";
+
+  const carregarImagem = async (caminho) =>
+  {
+    const resposta = await fetch(caminho);
+    const blob     = await resposta.blob();
+    return new Promise((resolver) =>
+    {
+      const leitor = new FileReader();
+      leitor.onload = () => { resolver(leitor.result); };
+      leitor.readAsDataURL(blob);
+    });
+  };
+
+  const desenharImagem = (dataUrl, largura, altura) =>
+  {
+    console.log(
+      "%c ",
+      `background-image: url(${dataUrl}); background-size: contain; background-repeat: no-repeat; padding: 0 0 ${altura}px ${largura}px;`,
+    );
+  };
+
+  const exibirBanner = async () =>
+  {
+    try
+    {
+      const devtools = await carregarImagem(`${caminhoBase}extras/devtools.png`);
+      desenharImagem(devtools, 275, 275);
+
+      console.log(
+        "%c 📚 Toshokan - Versão 1.2",
+        "color: #f2f4f3; font-weight: bold; font-size: 13px; padding-left: 3px; letter-spacing: 0.5px;",
+      );
+    }
+    catch (erroBanner)
+    {
+      console.log(
+        "%c Toshokan - Versão 1.2",
+        "color: #f2f4f3; font-weight: bold; font-size: 13px;",
+      );
+    }
+  };
+
+  exibirBanner();
+}
+
+exibirBannerConsole();

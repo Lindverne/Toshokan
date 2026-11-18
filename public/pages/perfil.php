@@ -308,7 +308,7 @@ $fotoAtual = !empty($usuario['foto_perfil']) && $usuario['foto_perfil'] !== 'ava
 <div class="modal fade" id="modalPfpZoom" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 24px; background: #ffffff; overflow: hidden;">
-            <div class="modal-body p-0 text-center" style="background:#ffffff; padding: 3rem 2rem;">
+            <div class="modal-body text-center d-flex align-items-center justify-content-center" style="background:#ffffff; padding: 1.5rem 1rem;">
                 <img id="modalPfpImg" src="" alt="Foto ampliada"
                      style="max-width:85%; max-height:60vh; object-fit:contain; border-radius: 50%;">
             </div>

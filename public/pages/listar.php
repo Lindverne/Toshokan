@@ -201,7 +201,7 @@ function gerarUrlPagina(int $pagina): string
 <div class="modal fade" id="modalLivroZoom" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content border-0 shadow-lg" style="border-radius: 24px; background: #ffffff; overflow: hidden;">
-            <div class="modal-body p-0 text-center" style="background:#ffffff; padding: 3rem 2rem;">
+            <div class="modal-body text-center d-flex align-items-center justify-content-center" style="background:#ffffff; padding: 1.5rem 1rem;">
                 <img id="modalLivroImg" src="" alt="Capa ampliada"
                      style="max-width:85%; max-height:60vh; object-fit:contain; border-radius: 12px;">
             </div>

@@ -35,7 +35,8 @@ CREATE TABLE `livros` (
   `titulo` varchar(100) NOT NULL,
   `autor` varchar(100) NOT NULL,
   `ano` int(11) NOT NULL,
-  `imagem` varchar(255) DEFAULT NULL
+  `imagem` varchar(255) DEFAULT NULL,
+  `pdf` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
@@ -52,6 +53,20 @@ INSERT INTO `livros` (`id`, `titulo`, `autor`, `ano`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Estrutura para tabela `usuarios`
+--
+
+DROP TABLE IF EXISTS `usuarios`;
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `login` varchar(100) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `foto_perfil` varchar(255) DEFAULT 'avatar_padrao.png'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -62,6 +77,13 @@ ALTER TABLE `livros`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Índices de tabela `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `login` (`login`);
+
+--
 -- AUTO_INCREMENT para tabelas despejadas
 --
 
@@ -70,6 +92,12 @@ ALTER TABLE `livros`
 --
 ALTER TABLE `livros`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT de tabela `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
